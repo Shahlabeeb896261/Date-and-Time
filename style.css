@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock {
+    border: 2px solid rgb(128, 90, 19);
+    background-color: rgb(215, 160, 57);
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 8px;
+}
